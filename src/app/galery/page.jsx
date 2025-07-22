@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ImageOptimization = () => {
@@ -8,6 +9,13 @@ const ImageOptimization = () => {
         src="https://i.ibb.co/XpPFyFh/Netflix.jpg"
         alt=""
         className="mx-auto"
+      />
+      <Image
+        src="https://i.ibb.co/XpPFyFh/Netflix.jpg"
+        alt=""
+        className="mx-auto"
+        width={500}
+        height={500}
       />
     </div>
   );
