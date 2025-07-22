@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Wireless Mouse",
+      "category": "Electronics",
+      "brandName": "Logitech",
+      "price": 29.99,
+      "image": "https://i.ibb.co/G05Mzf5/Knowledge-Management-Guidelines-Best-Practices.png"
+    },
+    {
+      "id": 2,
+      "productName": "Running Shoes",
+      "category": "Footwear",
+      "brandName": "Nike",
+      "price": 89.99,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Bluetooth Speaker",
+      "category": "Audio",
+      "brandName": "JBL",
+      "price": 59.95,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "Smartphone",
+      "category": "Mobile Phones",
+      "brandName": "Samsung",
+      "price": 699.0,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Backpack",
+      "category": "Accessories",
+      "brandName": "North Face",
+      "price": 49.5,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "LED Monitor",
+      "category": "Computer Peripherals",
+      "brandName": "Dell",
+      "price": 149.99,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "Coffee Maker",
+      "category": "Home Appliances",
+      "brandName": "Nespresso",
+      "price": 99.95,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "Smartwatch",
+      "category": "Wearables",
+      "brandName": "Apple",
+      "price": 399.0,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 9,
+      "productName": "Gaming Keyboard",
+      "category": "Gaming",
+      "brandName": "Razer",
+      "price": 129.99,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    },
+    {
+      "id": 10,
+      "productName": "Electric Toothbrush",
+      "category": "Personal Care",
+      "brandName": "Oral-B",
+      "price": 39.99,
+      "image": "https://i.ibb.co/CsNGcrj/laptop-turns-into-book-760.jpg"
+    }
+  ]
+}
