@@ -1,4 +1,5 @@
 import Product from '@/components/products/Product';
+import Link from 'next/link';
 import React from 'react';
 
 const Home = async () => {
@@ -12,7 +13,15 @@ const Home = async () => {
   return (
     <div>
       <h1 className='text-center font-extrabold text-7xl'>Welcome to Home Page</h1>
-      <div className='grid grid-cols-3 gap-7 w-[90%] mx-auto'>{products.map(product => <Product key={product.id} product={product}></Product>)}</div>
+      <div className='grid grid-cols-3 gap-7 w-[90%] mx-auto'>{products.slice(0, 3).map(product => <Product key={product.id} product={product}></Product>)}</div>
+      <div className='text-center mt-10'>
+        <Link
+          href='/products'
+          className="bg-black text-white py-2 px-5 rounded-lg shadow "
+        >
+          See details
+        </Link>
+      </div>
     </div>
   );
 };

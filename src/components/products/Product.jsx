@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Product = ({ product }) => {
@@ -13,8 +14,17 @@ const Product = ({ product }) => {
             A card component has a figure, a body part, and inside body there
             are title and actions parts
           </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">{product.price}</button>
+          <p>Price: ${product.price}</p>
+          <div className="flex justify-between">
+            <Link
+              href={`/product/${product.id}`}
+              className="bg-black text-white py-2 px-5 rounded-lg shadow"
+            >
+              See details
+            </Link>
+            <button className="bg-black text-white py-2 px-5 rounded-lg  transition-all ">
+              Buy Now
+            </button>
           </div>
         </div>
       </div>
