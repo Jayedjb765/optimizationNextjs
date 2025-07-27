@@ -12,6 +12,7 @@ const Home = async () => {
 
   return (
     <div>
+
       <h1 className='text-center font-extrabold text-7xl'>Welcome to Home Page</h1>
       <div className='grid grid-cols-3 gap-7 w-[90%] mx-auto'>{products.slice(0, 3).map(product => <Product key={product.id} product={product}></Product>)}</div>
       <div className='text-center mt-10'>
